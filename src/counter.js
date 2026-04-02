@@ -20,7 +20,7 @@ const Counter = () => {
         pset(true)
     }
     const decrement = () => {
-        if (num == 0) {
+        if (num === 0) {
             pset(false)
         }
         if (num > 0)
